@@ -1,0 +1,130 @@
+.section__header {
+    width: 100%;
+    max-width: 950px;
+    margin: 60px auto 30px;
+    text-align: center;
+}
+
+.section__title {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #2E2E2E;
+}
+
+.section__title::after {
+    content: '';
+    display: block;
+    width: 188px;
+    height: 1px;
+    background: #DEDEDE;
+    margin: 16px auto;
+}
+
+.container-cards {
+    padding: 0 15px;
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card__item {
+    width: 50%;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.post__img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card__inner {
+    position: relative;
+}
+
+.card__info {
+    width: 91%;
+    max-width: 420px;
+    position: absolute;
+    top: 56%;
+    left: 20px;
+    right: 20px;
+    z-index: 2;
+}
+
+.card__info {
+    transition: .2s linear;
+}
+
+.card__inner:hover .card__info {
+    content: '';
+    top: 120px;
+}
+
+
+.card__title {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+
+.card__title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card__subtitle {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 12px;
+}
+
+.card__contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+}
+
+.card__name {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 10px;
+}
+
+.card__date {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.7);
+
+}
